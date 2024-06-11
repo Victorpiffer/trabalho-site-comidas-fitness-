@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+body{
+color: rgb(0, 0, 0);
+background-color: rgb(247, 219, 169);
+font-family: "poppins" sans-serif;
+margin-left: 10px;
+margin-right: 10px;
+}
+header h1{
+    background-color:orange ;
+    padding: 30px;
+ margin-top: -10px;
+ margin-left: -10px;
+ margin-right: -10px;
+ margin-bottom: 0;
+    
+}
+html{
+scroll-behavior: smooth;
+
+}
+nav{
+    background-color:#FF8C00;
+    padding: 10px 10px;
+    margin-top: 0px;
+   margin-left: -10px;
+    margin-right: -10px;
+}
+
+ul{
+    display: flex;
+justify-content: space-between;
+list-style-type: none;
+align-items: center;
+padding: 20px;
+}
+  
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+    font-size: 30px;
+   
+    cursor: pointer;
+
+}
+a:hover{
+color: black;
+
+}
+img{width: 250px;
+    height: 250px;
+    border-radius: 10px;
+ 
+}
+
+.center{
+    text-align: center;
+    
+}
+p {
+    
+        text-align:left;
+       
+        font-size: 1em; line-height: 1.5em;
+       border-bottom: 2px solid maroon;
+     margin-right: 300px;
+     margin-left: 300px;
+     border-radius: 10px;
+     
+    
+        }
+
+h3{
+    color: black;
+    text-align: center;
+    background-color:orange;
+    padding: 20px 50px  ;
+    margin-left: 500px;
+    margin-right:500px ;
+    border-radius: 50px;
+    border: 5px groove chocolate ;
+   
+    }
+h2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+img{
+    width: 900px;
+    height: 500px;
+}
+  h1{color: black;
+    text-align: center;
+    font-size:40px;
+ 
+  
+   
+  }
+
+  span{
+    background-color: orange;
+     border-radius: 50px ;
+     padding: 9px 9px;
+    border: 1px solid black;
+     
+}
+
+.container img {
+    max-width:300px;
+    max-height:3000px;
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+margin-left: 550px;
+margin-top: 50px;}
+
+h4{
+    color: black;
+text-align: center;
+margin-left: 200PX;
+margin-right:200px;
+margin-top: 10px;
+border-radius: 50px;
+font-size: 25px; line-height: 1.5em;
+background-color: #ffA500;
+padding: 20px 20px;
+border:10px ridge chocolate;
+
+
+}
+.redes ul{
+    display: flex;
+    justify-content: center;
+    list-style:none ;
+    padding: 0px 20px;
+}
+
+.redes ul a {
+    display: block;
+    padding: 0px 2px;
+   
+
+}
+.redes ul li a img{
+    
+height: 50px;
+width: 50px;
+border-radius: 50px;
+margin-top: -30px;
+}
+.redes {
+    background-color: rgb(247, 219, 169);
+}
+
+h5{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    background-color:	#9ACD32;
+    padding: 20px 50px ;
+    margin-left: 550px;
+    margin-right:550px ;
+border-radius: 50px;
+border: 4px outset #228B22;
+}
+
+
+
+#lista-topicos  {
+    list-style-type: none;
+    padding: 0;
+    display: grid;}
+    
+
+
+
+
+#lista-topicos a{
+    color: black;
+    font-size: 26px;
+   
+}
+#lista-topicos a:hover{
+    color: orangered;
+    cursor: grab;
+    font-size: 28px;
+}
+
+#lista-topicos li{
+    border-bottom:1px solid chocolate;
+    padding: 8px 16px;
+
+    
+}
+
+
+h6{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 0px;
+}
+ .row{
+    padding: 0 20px;
+ }
+ #receitas {
+    float:left;
+    width: 30%;
+ }
+ aside img{
+    margin-top: 100px;
+    margin-bottom: 300px;
+    float: left;
+    width: 800px;
+    height: 600px;
+    align-items: center;
+    padding: 20px;
+ }
+ .card{
+    padding: 20px;
+ }
+
+ #topo{
+   
+  margin-left: 39.5%;
+
+ }
+
+ #topo a{
+    margin-left: 10px;
+    padding: 10px 30px;
+ color: black;
+
+font-size: 1.5em;
+border-bottom: 1px solid maroon;
+ }
+ #topo nav{
+    background-color: rgb(247, 219, 169);
+ }
+ #topo a:hover{
+    color: orangered;
+ }
+
+
+.pagina a{
+
+    color:#FF8C00;
+    font-size: 30px;
+}
+
+.pagina a:hover{
+color: black;
+text-decoration: underline;
+
+}
+
+
+  
+  
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+
+    body{
+        background-color:#FA8072	 ;
+    }
+ header h1{
+    font-size: 45px;
+    color: whitesmoke;
+    background-color:#B22222		 ;
+ }
+ nav{
+    background-color:#8B0000	 ;
+ }
+  nav a{
+    font-size: 40px;
+  }
+ nav a:hover{
+    color:#FF6347 ;
+ }
+ .container img{
+  margin-left: 270px;
+  
+    background-color: whitesmoke;
+    padding: 30px 30px;
+    border-radius: 30%;
+ }
+ 
+ h2 b{
+    color: whitesmoke;
+    font-size: 40px;
+    margin: 0 0 40px 40px;
+ }
+ h4{
+    background-color: whitesmoke;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 40px;
+ }
+ .row{
+    margin-left: -50px;
+ }
+ .row h6{
+    font-size: 48px;
+    color: whitesmoke;
+ }
+ #lista-topicos a{
+    color: whitesmoke;
+    font-size: 30px;
+   
+ }
+ #lista-topicos a:hover{
+    color: #8B0000;
+    font-size: 30px;
+ }
+
+ 
+ aside img{
+    width: 550px;
+    height: 800px;
+    margin-top: 150px;
+ }
+ h1{
+    color:#8B0000;
+    font-size: 60px;
+    border-bottom: 1px solid #8B0000;
+ }
+ h2{
+    color: whitesmoke;
+    font-size: 45px;
+ }
+.pagina a {
+    color: #8b0000;
+    font-size: 45px;
+}
+.pagina a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+#topo nav{
+    background-color: #FA8072;
+    margin-left: 140px;
+}
+#topo a {
+    color:#8b0000;
+    font-size: 35px;
+}
+#topo a:hover{
+    color: whitesmoke;
+    font-size: 40px;
+}
+}
+   
+
+    
+
+  
+    
+ 
+
+    @media screen and (max-width:600px)  {
+     body{
+        background-color: #feba60;
+     }
+       a{
+        font-size: 45px;
+       }
+ul {
+display: block;
+
+}
+nav{
+    background-color: #794513;
+}
+nav a {
+    font-size: 35px;
+}
+nav a:hover{
+    font-size: 35px;
+    color: #d18133;
+    text-decoration: underline;
+}
+li{
+text-align: center;
+    padding: 8px;
+    margin-top: 15px;
+}
+header h1{
+    font-size: 30px;
+    color: snow;
+    background-color:#d16200;
+}
+h2 b{
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.container img{
+margin-left:40px ;}
+
+h4{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: snow;
+    background-color:#d16200 ;
+    border:10px ridge snow;
+
+
+    
+}
+.text {
+    font-size: 20px;
+}
+    
+.card{
+    margin-left: -100px;
+    
+}
+.row h6{
+    font-size: 30px;
+    
+}
+.row{
+    padding: 0 70px;
+   
+    
+}#lista-topicos a{
+    color: black;
+    font-size: 18px;
+   
+    
+    
+   
+}
+#lista-topicos a:hover{
+    color:#794513;
+    cursor: grab;
+font-size: 18px;}
+#lista-topicos li{
+    border-bottom:1px solid chocolate;
+    padding: 2px 3px;
+
+    
+}
+aside img{
+    width: 250px;
+    height: 650px;
+    margin-top: -700px;
+    margin-left: 40px;
+    margin-right: -50px;
+    margin-bottom: 100px;
+}
+.centro{
+    margin-top: 900px;
+
+}
+#topo nav{
+    background-color: #feba60;
+    margin-left: -130px;
+}
+#topo a {
+    margin-right: 50px;
+    font-size: 25px;
+}
+h2{
+    font-size: 30px;
+    text-decoration: none;
+}
+.pagina a {
+    font-size: 30px;
+}
+h1{margin-top: 100px;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+   img{
+    width: 350px;
+    height: 200px;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 0px;
+   } 
+ }
+
+      
+    
+
+   

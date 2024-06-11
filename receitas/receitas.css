@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 219, 169);
+    font-family: "poppins" sans-serif;
+    }
+    .back h1 a{
+      background-color:chocolate;
+      padding: 9px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      color: orange;
+      cursor: pointer;
+     }
+     .back h1 a:hover{
+      color: whitesmoke;
+      
+     }
+
+     .video{
+      text-align: center;
+      margin-bottom: 100px;
+     }
+    
+p {
+    
+    text-align:left;
+   
+    font-size: 1em; line-height: 1.5em;
+   border-bottom: 2px solid maroon;
+ margin-right: 300px;
+ margin-left: 300px;
+ border-radius: 10px;
+ 
+
+    }
+   
+h3{
+    color: black;
+    text-align: center;
+    background-color:orange;
+    padding: 20px 50px  ;
+    margin-left: 500px;
+    margin-right:500px ;
+    border-radius: 50px;
+    border: 5px groove chocolate ;
+   
+    }
+     
+  span{
+    background-color: orange;
+     border-radius: 50px ;
+     padding: 9px 9px;
+    border: 1px solid black;
+     
+}
+
+.redes ul{
+  display: flex;
+  justify-content: center;
+  list-style:none ;
+  padding: 0px 20px;
+}
+
+.redes ul a {
+  display: block;
+  padding: 0px 2px;
+ 
+
+}
+.redes ul li a img{
+  
+height: 50px;
+width: 50px;
+border-radius: 50px;
+margin-top: -30px;
+}
+.redes {
+  background-color: rgb(247, 219, 169);
+ 
+}
+h5{
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  background-color:	#9ACD32;
+  padding: 20px 50px ;
+  margin-left: 550px;
+  margin-right:550px ;
+border-radius: 50px;
+border: 4px outset #228B22;
+}
+.rodape{
+  margin-top: 200px;
+  margin-left: -5px;
+  margin-right: -5px;
+  border-top: 2px solid #ff8c00;
+}
+.rodape footer {
+  color: #000;
+  background-color: #ff8c00;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-left: -3px;
+  margin-right: -3px;
+  margin-top: 100px;
+  margin-bottom: -300px;
+}
+ .rodape h2{
+  margin-top: -65px;
+ 
+ }
+.rodape img{
+  margin-top: -150px;
+}
+.rodape a:hover{
+  transform: scale(1.20);
+}
+
+@media screen and (max-width:600px)  {
+  body{
+    background-color: #feba60;
+  }
+.back header a{
+  background-color:#794513;
+  color: whitesmoke;
+  
+}
+.back header a:hover{
+  color: #d16200;
+  text-decoration: underline;
+}
+  .back h1{
+    font-size: 35px;
+   
+    
+  }
+  .video iframe{
+    width: 380px;
+    height: 300px;
+    border-radius: 50px;
+  }
+ 
+h3{
+margin-left: 10px;
+margin-right: 10px;
+font-size: 25px;
+background-color: #d16200;
+border:10px ridge snow;
+color: whitesmoke;
+
+}
+p{
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+h5{
+margin-left: 10px;
+margin-right: 10px;
+font-size: 35px;
+}
+.rodape{
+border-top: 2px solid #794513;}
+.rodape footer{
+  background-color: #794513;
+}
+
+.rodape h2{
+  font-size: 30px;
+  color: #794513;
+}
+.rodape img{
+  width: 200px;
+  height: 200px;
+  margin-top: -145px;
+}
+.redes ul li a img{
+  width: 80px;
+  height: 80px;
+}
+.redes ul li a img:hover{
+  transform: scale(1.50);
+}
+span{
+  background-color: #d16200;
+  color: whitesmoke;
+}
+
+}
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+body{
+  background-color:#FA8072;
+}
+
+.back h1 a{
+  background-color: #8b0000;
+  color: snow;
+  font-size: 50px;
+  margin-bottom: 100px;
+  
+}
+h3{
+  background-color: #8b0000;
+  color: snow;
+  margin-left: 200px;
+  margin-right:200px;
+  font-size: 35px;
+}
+p{
+  font-size: 35px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-bottom: 1px solid #8f0000;
+  color: whitesmoke;
+}
+span{
+  background-color: #8f0000;
+  color: snow;
+}
+h5{
+  background-color: #8f0000;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: whitesmoke;
+  font-size: 35px;
+}
+.redes{
+  background-color: #FA8072;
+}
+.redes ul li a img{
+  width: 70px;
+  height: 70px;
+
+}
+.redes ul li a img:hover{
+  width: 80px;
+  height: 80px;
+}
+.rodape{
+  margin-top: 200px;
+  margin-left: -5px;
+  margin-right: -5px;
+  border-top: 2px solid #8f0000;
+}
+.rodape footer {
+  color: whitesmoke;
+  background-color: #8f0000;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-left: -3px;
+  margin-right: -3px;
+  margin-top: 100px;
+  margin-bottom: -300px;
+}
+ .rodape h2{
+  margin-top: -65px;
+  font-size: 35px;
+ 
+ }
+.rodape img{
+  
+  border-radius: 50%;
+  margin-top: -260px;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  
+}
+.rodape a:hover{
+  transform: scale(1.20);
+}
+}
